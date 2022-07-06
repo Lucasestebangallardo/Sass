@@ -1,0 +1,60 @@
+/* PIMERA SECCION */
+.titulo1 {
+    font-size: 25px;
+    text-align: center;
+    margin: 0 auto;
+    h1{
+        background-color: rgb(156, 165, 165);
+        color: black;
+    }
+    & .primerasimagen{
+        width: 500px;
+        margin: 5px
+    }
+}
+
+/* SEGUNDA SECCION */
+
+.titulo2 {
+    font-size: 25px;
+    text-align: center;
+    margin: 0 auto;
+    h2{
+        background-color: rgb(156, 165, 165);
+        color: black;
+        text-align: start;
+        padding: 20px;
+    }
+    & .entrenamiento{
+        font-size: 25px;
+        background-color: aliceblue;
+        color: black;
+        margin: 10px;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        border: double 2px black;
+    }
+    & .primerasimagen{
+        width: 500px;
+        margin: 5px
+    }
+}
+
+
+
+/* TERCERA SECCION */
+
+.volver{
+    background-color: #364552;
+    margin: auto;
+    padding: 10px;
+    
+    .ir {
+        text-decoration: none;
+        color: white;
+    }
+
+}
+
+/* FIN SECCIONES */

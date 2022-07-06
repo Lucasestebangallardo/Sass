@@ -1,0 +1,28 @@
+/* HEADER */
+
+header {
+    background-color: #364552;
+    text-align:center;
+    height: 100px;  
+
+/* LOGO */
+    #logo {
+        display: block ;
+        width: 65px;
+        padding-left: 15px;
+        padding-top: 15px;
+    }
+
+    nav ul li {
+            display: inline-block;
+            width: 160px;
+    }
+
+    a{
+        color: white;
+    text-decoration: none;
+    margin: 40px;
+    }
+}
+
+/* FIN HEADER */

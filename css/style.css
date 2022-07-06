@@ -1,0 +1,103 @@
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* HEADER */
+header {
+  background-color: #364552;
+  text-align: center;
+  height: 100px;
+  /* LOGO */
+}
+header #logo {
+  display: block;
+  width: 65px;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+header nav ul li {
+  display: inline-block;
+  width: 160px;
+}
+header a {
+  color: white;
+  text-decoration: none;
+  margin: 40px;
+}
+
+/* FIN HEADER */
+/* PIMERA SECCION */
+.titulo1 {
+  font-size: 25px;
+  text-align: center;
+  margin: 0 auto;
+}
+.titulo1 h1 {
+  background-color: rgb(156, 165, 165);
+  color: black;
+}
+.titulo1 .primerasimagen {
+  width: 500px;
+  margin: 5px;
+}
+
+/* SEGUNDA SECCION */
+.titulo2 {
+  font-size: 25px;
+  text-align: center;
+  margin: 0 auto;
+}
+.titulo2 h2 {
+  background-color: rgb(156, 165, 165);
+  color: black;
+  text-align: start;
+  padding: 20px;
+}
+.titulo2 .entrenamiento {
+  font-size: 25px;
+  background-color: aliceblue;
+  color: black;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  border: double 2px black;
+}
+.titulo2 .primerasimagen {
+  width: 500px;
+  margin: 5px;
+}
+
+/* TERCERA SECCION */
+.volver {
+  background-color: #364552;
+  margin: auto;
+  padding: 10px;
+}
+.volver .ir {
+  text-decoration: none;
+  color: white;
+}
+
+/* FIN SECCIONES */
+/* FOOTER */
+footer {
+  background-color: #364552;
+  color: white;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: end;
+}
+footer #logo2 {
+  display: block;
+  width: 65px;
+}
+
+/* FIN FOOTER */
+
+/*# sourceMappingURL=style.css.map */
